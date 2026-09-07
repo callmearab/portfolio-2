@@ -68,12 +68,12 @@ Error generating stack: `+e.message+`
 - مدیریت محیط دیتابیس تولیدی PEC و اطمینان از یکپارچگی، عملکرد و پایداری داده‌ها.
 - معرفی قواعد نام‌گذاری ساختاریافته دیتابیس و بهینه‌سازی عملکرد کوئری‌ها.
 
-#### مدرس توسعه وب — Future Bridge NPO Afghanistan
-*افغانستان | سپتامبر ۲۰۲۵ – اکنون*
+#### فریلنسر — Upwork / خوداشتغال
+*ریموت | ۲۰۲۵ – اکنون*
 
-- ارائه برنامه درسی ساختاریافته HTML و CSS (۵ ساعت در هفته) و جاوااسکریپت (۴ ساعت در هفته) به گروه‌های جوان — بیش از ۷۰ ساعت تاکنون.
-- مدیر فنی وب‌سایت futurebridge.ngo؛ مسئول محتوا، آپ‌تایم و عملکرد پلتفرم.
-- توسعه و تطبیق مواد درسی برای دانش‌آموزانی با تجربه محدود در علوم کامپیوتر.
+- ارائه خدمات تدریس توسعه وب و مشاوره فنی به مشتریان از سراسر جهان از طریق پلتفرم Upwork.
+- مدیریت مستقل پروژه‌های فریلنس از ابتدا تا انتها، شامل معماری دیتابیس و توسعه وب فول‌استک.
+- ارائه خدمات مدیریت پروژه، طراحی برنامه درسی و مشاوره فنی به‌صورت خوداشتغال.
 
 #### مدرس دوره وب به دانشجویان دانشگاه
 *دانشگاه کندز | ۲۰۲۴ – اکنون*
@@ -186,12 +186,12 @@ Error generating stack: `+e.message+`
 - Manage PEC's production database environment, ensuring data integrity, performance, and reliability.
 - Introduced structured database naming conventions and optimized query performance.
 
-#### Web Development Instructor — Future Bridge NPO Afghanistan
-*Afghanistan | Sep 2025 – Present*
+#### Freelancer — Upwork / Self-Employed
+*Remote | 2025 – Present*
 
-- Deliver structured curricula in HTML & CSS (5 hrs/week) and JavaScript (4 hrs/week) to youth learner cohorts — 70+ hours delivered to date.
-- Serve as technical web administrator for futurebridge.ngo, managing content, uptime, and platform performance.
-- Developed and adapted curriculum materials for students with limited prior exposure to computer science.
+- Deliver web development instruction and technical consulting to clients worldwide through the Upwork platform.
+- Independently manage freelance projects end-to-end, spanning database architecture and full-stack web development.
+- Provide project management, curriculum design, and technical consulting services as a self-employed developer.
 
 #### Web Course Instructor for University Students
 *Kunduz University | 2024 – Present*
