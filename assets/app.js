@@ -288,7 +288,7 @@ Plus language certifications in English (CEFR), Turkish (A1), and Arabic.
           <style>
             @page {
               size: A4 portrait;
-              margin: 12mm 14mm !important;
+              margin: 9mm 11mm !important;
             }
             
             body {
@@ -306,7 +306,7 @@ Plus language certifications in English (CEFR), Turkish (A1), and Arabic.
               width: 100% !important;
               box-sizing: border-box !important;
               margin: 0 !important;
-              padding: 24pt 28pt !important;
+              padding: 15pt 19pt !important;
               border: 1.5pt solid #cbd5e1 !important;
               border-radius: 8px !important;
               font-family: inherit;
@@ -315,44 +315,90 @@ Plus language certifications in English (CEFR), Turkish (A1), and Arabic.
             .print-container h1 {
               color: #0f172a !important;
               border-bottom: 2pt solid #d70015 !important;
-              padding-bottom: 8pt !important;
-              margin-bottom: 16pt !important;
-              font-size: 22pt !important;
+              padding-bottom: 5pt !important;
+              margin: 0 0 8pt 0 !important;
+              font-size: 18pt !important;
+              line-height: 1.2 !important;
             }
 
             .print-container h2 {
               color: #b50012 !important;
               border-bottom: 1pt solid #e2e8f0 !important;
-              padding-bottom: 4pt !important;
-              margin-top: 18pt !important;
-              margin-bottom: 10pt !important;
-              font-size: 13.5pt !important;
+              padding-bottom: 2pt !important;
+              margin-top: 11pt !important;
+              margin-bottom: 6pt !important;
+              font-size: 11.5pt !important;
+              line-height: 1.2 !important;
             }
 
             .print-container h3 {
               color: #1e293b !important;
-              font-size: 11pt !important;
-              margin-top: 12pt !important;
+              font-size: 10pt !important;
+              margin: 6pt 0 2pt 0 !important;
+              line-height: 1.25 !important;
+            }
+
+            .print-container h4 {
+              color: #1e293b !important;
+              font-size: 9.5pt !important;
+              font-weight: 700 !important;
+              margin: 6.5pt 0 1.5pt 0 !important;
+              line-height: 1.25 !important;
             }
 
             .print-container p, 
             .print-container li, 
             .print-container td {
               color: #334155 !important;
-              font-size: 9.5pt !important;
-              line-height: 1.6 !important;
+              font-size: 8.5pt !important;
+              line-height: 1.42 !important;
+            }
+
+            .print-container p {
+              margin: 0 0 4pt 0 !important;
+            }
+
+            .print-container ul {
+              margin: 2pt 0 5pt 0 !important;
+              padding-inline-start: 13pt !important;
+            }
+
+            .print-container li {
+              margin: 0 0 2.2pt 0 !important;
+            }
+
+            .print-container blockquote {
+              margin: 3pt 0 6pt 0 !important;
+              padding: 3pt 8pt !important;
+              border-inline-start: 2.5pt solid #e2e8f0 !important;
+            }
+
+            .print-container blockquote p {
+              margin: 0 !important;
+            }
+
+            .print-container hr {
+              margin: 5pt 0 !important;
+              border: none !important;
+              border-top: 1pt solid #e2e8f0 !important;
+            }
+
+            .print-container table {
+              border-collapse: collapse !important;
+              margin: 2pt 0 !important;
             }
 
             .print-container th {
               background-color: #f8fafc !important;
               color: #0f172a !important;
-              padding: 8px !important;
+              font-size: 7.8pt !important;
+              padding: 3pt 5pt !important;
               border-bottom: 1.5pt solid #cbd5e1 !important;
             }
 
             .print-container td {
               border-bottom: 1px solid #e2e8f0 !important;
-              padding: 8px !important;
+              padding: 3pt 5pt !important;
             }
 
             .print-container a {
@@ -360,12 +406,16 @@ Plus language certifications in English (CEFR), Turkish (A1), and Arabic.
               text-decoration: underline !important;
             }
 
-            /* جلوگیری از شکستن تیترها و جدول‌ها بین صفحات */
-            h1, h2, h3, p, ul, li, blockquote, tr, table {
+            /* جلوگیری از شکستن تیترها بین صفحات (فقط تیترها، نه هر پاراگراف/لیست) */
+            h1, h2, h3, h4, tr {
               page-break-inside: avoid !important;
               break-inside: avoid !important;
             }
-          </style>
+            h2, h3, h4 {
+              page-break-after: avoid !important;
+              break-after: avoid !important;
+            }
+</style>
         </head>
         <body>
           <div class="print-container ${o?`dir-rtl`:`dir-ltr`}">
