@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://callmearab.vercel.app/sitemap.xml
