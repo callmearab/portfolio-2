@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://callmearab.vercel.app/sitemap.xml
+Sitemap: https://samimohammadi.site/sitemap.xml
